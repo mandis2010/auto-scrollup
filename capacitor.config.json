@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "autoScroll",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

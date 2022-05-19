@@ -1,0 +1,7 @@
+{
+  "name": "autoScroll",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
