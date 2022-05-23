@@ -13,5 +13,24 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list>
+
+    <ion-item-divider></ion-item-divider>
+    <ion-item-group *ngFor="let item of dataList">
+      <ion-item lines="none">
+        <ion-grid>
+          <ion-row>
+            <ion-col class="ion-text-left">
+              <h4>{{item.color}}</h4>
+            </ion-col>
+            <ion-col class="ion-text-right">
+              <h4 class="medium">{{item.value}}</h4>
+              <ion-icon name="calendar-outline"></ion-icon>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-item-group>
+  </ion-list>
+
 </ion-content>
